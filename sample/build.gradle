@@ -23,6 +23,6 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.1'
-    compile project(':imagepicker')
-    compile project(':rximagepicker')
+    compile 'com.github.esafirm.android-image-picker:imagepicker:1.2.2'
+    compile 'com.github.esafirm.android-image-picker:rximagepicker:1.2.2'
 }
